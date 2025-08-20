@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 400px;
+}
+
+.center-content {
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #f9f9f9;
+}
+
+h2 {
+    text-align: left;
+    margin: 0px;
+    margin-bottom: 8%;
+    padding: 0%;
+}
+
+label {
+    display: block;
+    margin: 1%;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 1%;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+button {
+    margin: 1%;
+    margin-top: 5%;
+    padding: 10px;
+    width: 100%;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: lightseagreen;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+#result {
+    margin-top: 20px;
+    font-weight: bold;
+    color: green;
+}
+
+/* Part 2 - Add result table */
+
+table, th, td {
+    border: 0.5px solid rgba(0, 0, 0, 0.5);
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #35af8a;
+}
